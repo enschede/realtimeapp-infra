@@ -8,7 +8,7 @@ resources:
 transformers:
 - labels.yaml
 replicas:
-- count: 1
+- count: 0
   name: realtime
 images:
 - name: gbaeke/flux-rt
